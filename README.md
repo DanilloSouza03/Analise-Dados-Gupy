@@ -1,6 +1,48 @@
-### Análise de Vagas de Dados na Plataforma Gupy
+## 🚀 Desafio - Driva
+
+### Análise de Vagas de Dados na Plataforma Gupy 🎯
 
 Nesta análise, explorei um conjunto de 587 vagas disponíveis na plataforma Gupy, todas relacionadas à área de dados. Os dados foram obtidos por meio de web scraping feito na data (28/08/2023), por meio deste arquivo. [Web Scraping](https://github.com/DanilloSouza03/Analise-Dados-Gupy/blob/main/getData.py)
+
+<details>
+  <summary><b>📁 Estrutura do Repositório</b></summary>
+
+ Dentro deste repositório, você encontrará os seguintes arquivos e pastas:
+- Arquivo "getData.py"
+  - Contém o script feito para realizar o web scraping na plataforma da Gupy.
+- Arquivo “base_dados_vagas.csv”
+	- Contém os dados em obtidos pela raspagem em .csv.
+- Arquivo “analise_vagas_gupy.ipynb”
+	- Contém o código de como foram feitas as análises.
+- Pasta “graficos”
+	- Esta pasta contém os gráficos da análise.  
+- .gitattributes
+	- Arquivo default para criação do repositório.
+- README.md
+	- Arquivo com informações para entender o objetivo do repositório.
+- LICENSE
+	- Informações da licença do repositório.
+
+</details>
+
+<details>
+  <summary><b>💻 Tecnologias Usadas </b></summary>
+
+ Para este projeto foram utilizados as seguintes tecnologias para certos fins
+- **Python** (linguagem de programação).
+  - Utilizada para escrever o script de web scraping e análises.
+- **Selenium** (framework de automação de testes).
+	- Utilizado para automatizar a interação com a página da plataforma Gupy.
+- **Pandas** (biblioteca Python para análise de dados).
+	- Utilizada para a limpeza, organização e análise dos dados obtidos.
+- **BeautifulSoup** (biblioteca Python para análise de arquivos HTML e XML).
+	- Utilizada para extrair informações específicas das páginas web.
+- **Unidecode** <small>(biblioteca Python para conversão de caracteres acentuados)</small>
+  -  Utilizada para lidar com a conversão de caracteres acentuados em caracteres ASCII.
+- **Matplolib** (biblioteca Python para visualização de dados).
+  - Utilizada para criar visualizações gráficas dos dados analisados.
+
+</details>
 
 #### Distribuição de Vagas por Estado
 
@@ -58,3 +100,7 @@ São Paulo e Rio de Janeiro surgem como as principais cidades com vagas presenci
 
 Esta análise oferece insights valiosos para candidatos em busca de oportunidades de emprego e empresas que desejam entender as tendências do mercado.
 
+<hr>
+<p align="center">
+Desenvolvido por Danillo Souza.
+</p>
