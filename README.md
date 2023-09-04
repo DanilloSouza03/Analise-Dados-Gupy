@@ -2,7 +2,7 @@
 
 ### Análise de Vagas de Dados na Plataforma Gupy 🎯
 
-Nesta análise, explorei um conjunto de 587 vagas disponíveis na plataforma Gupy, todas relacionadas à área de dados. Os dados foram obtidos por meio de web scraping feito na data (28/08/2023), por meio deste arquivo. [Web Scraping](https://github.com/DanilloSouza03/Analise-Dados-Gupy/blob/main/getData.py)
+Nesta análise, explorei um conjunto de 587 vagas disponíveis na plataforma Gupy, todas relacionadas à área de dados. Os dados foram obtidos por meio de web scraping feito na data (28/08/2023), por meio deste arquivo [Web Scraping](https://github.com/DanilloSouza03/Analise-Dados-Gupy/blob/main/getData.py), já as análises estão nesse [Jupyter](https://github.com/DanilloSouza03/Analise-Dados-Gupy/blob/main/analise_vagas_gupy.ipynb).
 
 <details>
   <summary><b>📁 Estrutura do Repositório</b></summary>
